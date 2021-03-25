@@ -1,0 +1,39 @@
+.qc-newdetail {
+    display: flex;
+	justify-content: space-around;
+	padding: 10px 0;
+	align-items: center;
+}
+.swiper-slide {
+    width: 25%;
+}
+.swiper_slide_all img {
+    width: 100%;
+}
+.swiper_slide_all p {
+	font-size: 12px;
+	padding-top: 10px;
+	font-weight: 600;
+	color:  #000;
+}
+.swiper_slide_all p:hover {
+	color: red;
+	transition: 1s;
+}
+.header-adss .qc-newdetail .swiper-slide img {
+	width: 100%;
+}
+.footer_all-write {
+    padding: 20px 0;
+    text-align: center;
+}
+.footer_copy-write p {
+	font-size: 14px;
+}
+.footer-adss {
+    width: 100%;
+    max-width: 980px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+

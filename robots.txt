@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /vendor/
+Disallow: /backend/
+Disallow: /ckeditor/
+Disallow: /ckfinder/
+Disallow: /system/
+Disallow: /application/modules/adminhp

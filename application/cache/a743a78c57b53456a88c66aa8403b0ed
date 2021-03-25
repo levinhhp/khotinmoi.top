@@ -1,0 +1,500 @@
+a:2:{s:6:"expire";d:1532237508;s:7:"headers";a:0:{}}ENDCI--->﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="vi" xml:lang="vi">
+<head>
+    	<meta http-equiv="content-type" content="text/html" charset="utf-8" />	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="fb:app_id" content="165484294148529" />
+    <meta property="fb:admins" content="100003197962083">
+    <base href="http://localhost:8080/palmfood/" />
+	<title>
+        PALM CORP    </title>
+    <meta name="description" content="PALM CORP" />
+    <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta name="author" content="vnplatic"/>
+<meta name="copyright" content="vnplatic" />
+<meta name="geo.region" content="VN" />
+<meta name="geo.position" content="20.945133;106.671554" />
+<meta name="ICBM" content="20.945133, 106.671554" />   
+<meta http-equiv="content-language" content="vi"/> 
+<meta name="dc.rights.copyright" content="vnplatic">
+<meta name="dc.creator.name" content="vnplatic">
+<meta name="dc.creator.email" content="sales@hpsoft.vn">
+<meta name="dc.identifier" content="http://vnplastic.net/">
+<meta name="dc.language" content="vi-VN">
+<meta name="dc.created" content="2015-12-04">    <link rel="shortcut icon" href="upload/favicon.png" />    
+    <meta name="dc.description" content="PALM CORP">
+    <meta name="dc.keywords" content="">    
+    <link href="http://localhost:8080/palmfood/feed" rel="alternate" type="application/rss+xml" title="RSS 2.0">
+    <link href="http://localhost:8080/palmfood/feed" rel="alternate" type="application/atom+xml" title="Atom 1.0">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <meta name="keywords" content=""/>    
+         
+       
+    <link rel="stylesheet" type="text/css" href="css/superfish.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="css/skin.css" rel="stylesheet" type="text/css" /> 
+    <link href="css/skin-ie7.css" rel="stylesheet" type="text/css" /> 
+    <link href="css/skin-ie8.css" rel="stylesheet" type="text/css" /> 
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/jcarousel.responsive.css"/>
+    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
+     <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" /> 
+   
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>       
+                      
+    <script type="text/javascript">
+        function addorder(id,soluong){
+            jQuery.ajax({
+                cache: false,
+                type:"POST",
+    				url:"http://localhost:8080/palmfood/sanpham/addorder_pro/",
+    				data: {id : id,soluong : soluong},
+    				success:function(html){
+    				    alert('Sản phẩm đã được thêm vào giỏ hàng');
+                        window.location.reload();								
+    				}
+            });								
+		}   
+    </script>
+    <script type="text/javascript">
+        jQuery(document).ready(function(){
+                    jQuery(".navbar-toggle").click(function(){
+                        jQuery(".collapse").toggle();
+                        if(jQuery(".collapse").is(":hidden")){
+                            jQuery(".collapse").css('display','none');                            
+                            jQuery(this).addClass('collapsed');
+                        }
+                        else
+                        {
+                            jQuery(".collapse").css('display','block');
+                            jQuery(this).removeClass('collapsed');                            
+                        }        
+                    }); 
+                });   
+    </script>
+     <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script src="js/hoverIntent.js"></script>
+<script src="js/superfish.js"></script>
+
+<!-- initialise Superfish -->
+<script type="text/javascript">
+
+    jQuery(document).ready(function(){
+        jQuery('ul.sf-menu').superfish();
+    });
+
+</script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="js/jcarousel.responsive.js"></script>
+<script type="text/javascript" src="js/owl.carousel.js"></script>
+    <script>
+            $(document).ready(function() {
+              $('.owl-carousel').owlCarousel({
+                items: 1,
+                margin: 10,
+                autoHeight: true,
+                autoplay:true,
+                loop:true
+              });
+            })
+          </script>
+     
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72905732-1', 'auto');
+  ga('send', 'pageview');
+
+</script>   
+<!-- <script type="text/javascript" src="js/tuyetroi.js"></script>      -->
+</head>
+<body>   
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&appId=979179102147316&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <div id="header_mb">
+<script type="text/javascript">
+$(document).ready(function() {
+  $('.navbar a.dropdown-toggle').on('click', function(e) {
+     var $el = $(this);
+     var $parent = $(this).offsetParent(".dropdown-menu");
+     $(this).parent("li").toggleClass('open');
+     if(!$parent.parent().hasClass('nav')) {
+          $el.next().css({"top": $el[0].offsetTop, "left": $parent.outerWidth() - 4});
+     }
+     $('.nav li.open').not($(this).parents("li")).removeClass("open");
+     return false;
+    });
+});
+</script>
+<div style="background:#3bb2ca;" class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+         <button style="background:#fff;" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="#" style="background:#fff;"><img style="margin-top:-5px" height="30px"src="upload/logo.png"></a>
+         
+        
+         <div class="clearfix"></div>
+      </div>
+ 
+      <div class="collapse navbar-collapse">
+         <ul class="nav navbar-nav">
+            <li class="active"><a style="color:#333 !important;" href="http://localhost:8080/palmfood/">Trang chủ</a></li>
+                                 <li><a href="http://localhost:8080/palmfood/cau-chuyen-ve-palm-foods.html" >Câu chuyện Palm Food</a>
+                                             </li>
+                                        <li><a href="http://localhost:8080/palmfood/san-pham.html">Sản phẩm</a>
+                        
+                    </li>
+                                         <li><a href="http://localhost:8080/palmfood/tin-tuc.html" >Tin tức</a>
+                                             </li>
+                                         <li><a href="http://localhost:8080/palmfood/cung-nhau-vao-bep.html" >Cùng nhập vào bếp</a>
+                                             </li>
+                                         <li><a href="http://localhost:8080/palmfood/tam-nhin-su-menh.html" >Tầm nhìn/ Sứ mệnh</a>
+                                             </li>
+                                         <li><a href="http://localhost:8080/palmfood/dong-hanh-cung-nong-san-viet.html" >Đồng hành cùng nông sản Việt</a>
+                                             </li>
+                                         <li><a href="http://localhost:8080/palmfood/tuyen-dung.html" >Tuyển dụng</a>
+                                             </li>
+                         
+            <li><a href="http://localhost:8080/palmfood/doi-tac.html" title="Đối tác">Đối tác</a></li>  
+            <li><a href="http://localhost:8080/palmfood/lien-he.html" title="Liên hệ">Liên hệ</a></li>            
+        </ul>
+    </div>
+  </div>
+</div>
+<div class="clearfix"></div>
+</div>
+    <div id="wrapper" class="container">
+        <div id="header">
+                          <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                      <div id="logo">
+                          <a href=""><img src="upload/logo.png"></a>
+                      </div>
+                  </div> 
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                      <div id="menu">
+                          <ul style="margin-bottom:0;" class="sf-menu" id="example">
+                              <li><a style="border:none;" href="http://localhost:8080/palmfood/"><span class="menu-text" title="Vingroup">Trang chủ</span></a></li>
+                                                                <li><a
+                                   style="border:none;" href="http://localhost:8080/palmfood/cau-chuyen-ve-palm-foods.html" title="Câu chuyện Palm Food"><span class="menu-text">Câu chuyện Palm Food</span></a>
+                                                                        </li>   
+                                                                        <li><a href="http://localhost:8080/palmfood/san-pham.html" title="Sản phẩm">Sản phẩm</a>                                       
+                                      </li>
+                                                                        <li><a
+                                   style="border:none;" href="http://localhost:8080/palmfood/tin-tuc.html" title="Tin tức"><span class="menu-text">Tin tức</span></a>
+                                                                        </li>   
+                                                                    <li><a
+                                   style="border:none;" href="http://localhost:8080/palmfood/cung-nhau-vao-bep.html" title="Cùng nhập vào bếp"><span class="menu-text">Cùng nhập vào bếp</span></a>
+                                                                        </li>   
+                                                                    <li style="background:none;"><a href="http://localhost:8080/palmfood/doi-tac.html" title="Đối tác">Đối tác</a></li>                                                          
+                          </ul>     
+                      </div>
+                  </div>                           
+              </div>
+                      </div>
+    </div>  
+            <div id="sliders">
+            <div class="owl-carousel owl-theme">
+            <div class="item">
+            <a href="" target="_blank"><img src="upload/slider.png" title="slider" alt="slider" />
+            </a>            
+        </div>
+        
+</div> 
+              <div class="clearfix"></div>
+        </div>
+           
+    <div id="nen_main">
+            <div id="wrapper" class="container">
+        <div id="main_content">
+                         
+                <div id="main_cu" style="padding-left:0;">
+                    
+                        		<div class="tinhome">
+			<div class="tinhome_top">
+				<a href="http://localhost:8080/palmfood/cau-chuyen-ve-palm-foods.html" title="Câu chuyện Palm Food">Câu chuyện Palm Food</a>
+			</div>
+			<div class="tinhome_main">
+										<div class="tinhome_item">
+							<div class="row">								
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+																		<a href="http://localhost:8080/palmfood/cau-chuyen.html" class="tinhome_item_img" title="Câu chuyện"><img title="Câu chuyện" alt="Câu chuyện" src="upload/cau_chuyen_thumb.png"></a>
+																	</div>
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+																		<div class="tinhome_item_name">
+										<a href="http://localhost:8080/palmfood/cau-chuyen.html" title="Câu chuyện">Câu chuyện</a>
+										<div class="clearfix"></div>
+									</div>					
+									<p>Tiền thân của Vingroup là Tập đoàn Technocom, thành lập năm 1993 tại Ucraina. Đầu những năm 2000, Technocom trở về Việt Nam, tập trung đầu tư vào lĩnh vực du lịch và bất động sản với hai thương hiệu chiến lược ban đầu là Vinpearl và Vincom. Đến tháng 1/2012, công ty CP Vincom và Công ty CP Vinpearl sáp nhập, chính thức hoạt động dưới mô hình Tập đoàn với tên gọi Tập đoàn Vingroup – Công ty CP.</p>
+																	</div>								
+							</div>
+							<div class="clearfix"></div>
+						</div>
+												<div class="tinhome_item">
+							<div class="row">								
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+																			<div class="tinhome_item_name">
+										<a href="http://localhost:8080/palmfood/su-menh.html" title="Sứ mệnh">Sứ mệnh</a>
+										<div class="clearfix"></div>
+									</div>					
+									<p>Tiền thân của Vingroup là Tập đoàn Technocom, thành lập năm 1993 tại Ucraina. Đầu những năm 2000, Technocom trở về Việt Nam, tập trung đầu tư vào lĩnh vực du lịch và bất động sản với hai thương hiệu chiến lược ban đầu là Vinpearl và Vincom. Đến tháng 1/2012, công ty CP Vincom và Công ty CP Vinpearl sáp nhập, chính thức hoạt động dưới mô hình Tập đoàn với tên gọi Tập đoàn Vingroup – Công ty CP.</p>
+																		</div>
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+																			<a href="http://localhost:8080/palmfood/su-menh.html" class="tinhome_item_img" title="Sứ mệnh"><img title="Sứ mệnh" alt="Sứ mệnh" src="upload/index_07_thumb.png"></a>
+																		</div>								
+							</div>
+							<div class="clearfix"></div>
+						</div>
+												<div class="tinhome_item">
+							<div class="row">								
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+																		<a href="http://localhost:8080/palmfood/niem-tin.html" class="tinhome_item_img" title="NIềm tin"><img title="NIềm tin" alt="NIềm tin" src="upload/index_11_thumb.png"></a>
+																	</div>
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+																		<div class="tinhome_item_name">
+										<a href="http://localhost:8080/palmfood/niem-tin.html" title="NIềm tin">NIềm tin</a>
+										<div class="clearfix"></div>
+									</div>					
+									<p>Tiền thân của Vingroup là Tập đoàn Technocom, thành lập năm 1993 tại Ucraina. Đầu những năm 2000, Technocom trở về Việt Nam, tập trung đầu tư vào lĩnh vực du lịch và bất động sản với hai thương hiệu chiến lược ban đầu là Vinpearl và Vincom. Đến tháng 1/2012, công ty CP Vincom và Công ty CP Vinpearl sáp nhập, chính thức hoạt động dưới mô hình Tập đoàn với tên gọi Tập đoàn Vingroup – Công ty CP.</p>
+																	</div>								
+							</div>
+							<div class="clearfix"></div>
+						</div>
+									
+				
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		                    
+                </div>
+            
+        </div>    
+    </div>
+</div>
+       
+<div id="bg_sanpham">
+    <div id="wrapper" class="container">
+        <div class="sanpham_homeh">
+            <div class="sanpham_homeh_top"><a href="http://localhost:8080/palmfood/san-pham.html" title="Sản phẩm">Sản phẩm</a></div>
+            <div class="sanpham_homeh_top_title">Nhờ canh tác theo phương pháp hiện đại, tuân thủ nghiêm ngặt các yêu cầu về chất lượng các yếu tố đầu vào cũng như quy trình chăm sóc, thu hoạch, đóng gói, bảo quản, phân phối.</div>
+            <br><br>
+                            <div class="jcarousel-wrapper">
+                    <div class="jcarousela3">
+                        <ul>
+                                                            <li>
+                                    <div class="sanpham_homeh_item">
+                                        <a href="http://localhost:8080/palmfood/coconut.html" title="Coconut"><img title="Coconut" alt="Coconut" src="upload/qua_dua_thumb.jpg"></a>   
+                                    </div>
+                                </li> 
+                                                                <li>
+                                    <div class="sanpham_homeh_item">
+                                        <a href="http://localhost:8080/palmfood/mango.html" title="Mango"><img title="Mango" alt="Mango" src="upload/qua_xoai_thumb.jpg"></a>   
+                                    </div>
+                                </li> 
+                                                                <li>
+                                    <div class="sanpham_homeh_item">
+                                        <a href="http://localhost:8080/palmfood/watermelon.html" title="Watermelon"><img title="Watermelon" alt="Watermelon" src="upload/qua_dua_hau_thumb.jpg"></a>   
+                                    </div>
+                                </li> 
+                                                                <li>
+                                    <div class="sanpham_homeh_item">
+                                        <a href="http://localhost:8080/palmfood/pomegranate.html" title="Pomegranate"><img title="Pomegranate" alt="Pomegranate" src="upload/qua_luu_thumb.jpg"></a>   
+                                    </div>
+                                </li> 
+                                                                <li>
+                                    <div class="sanpham_homeh_item">
+                                        <a href="http://localhost:8080/palmfood/avocado.html" title="Avocado"><img title="Avocado" alt="Avocado" src="upload/bo_thumb.jpg"></a>   
+                                    </div>
+                                </li> 
+                                                                <li>
+                                    <div class="sanpham_homeh_item">
+                                        <a href="http://localhost:8080/palmfood/durian.html" title="Durian"><img title="Durian" alt="Durian" src="upload/sau_rieng_thumb.jpg"></a>   
+                                    </div>
+                                </li> 
+                                                                <li>
+                                    <div class="sanpham_homeh_item">
+                                        <a href="http://localhost:8080/palmfood/pear.html" title="Pear"><img title="Pear" alt="Pear" src="upload/qua_le_thumb.jpg"></a>   
+                                    </div>
+                                </li> 
+                                                                <li>
+                                    <div class="sanpham_homeh_item">
+                                        <a href="http://localhost:8080/palmfood/papaya.html" title="Papaya"><img title="Papaya" alt="Papaya" src="upload/du_du_thumb.jpg"></a>   
+                                    </div>
+                                </li> 
+                                                                <li>
+                                    <div class="sanpham_homeh_item">
+                                        <a href="http://localhost:8080/palmfood/jack-fruit.html" title="Jack fruit"><img title="Jack fruit" alt="Jack fruit" src="upload/qua-mit_thumb.jpg"></a>   
+                                    </div>
+                                </li> 
+                                                                <li>
+                                    <div class="sanpham_homeh_item">
+                                        <a href="http://localhost:8080/palmfood/litchi.html" title="Litchi"><img title="Litchi" alt="Litchi" src="upload/qua_vai_thumb.jpg"></a>   
+                                    </div>
+                                </li> 
+                                                                <li>
+                                    <div class="sanpham_homeh_item">
+                                        <a href="http://localhost:8080/palmfood/apple.html" title="Apple"><img title="Apple" alt="Apple" src="upload/qua_tao_thumb.jpg"></a>   
+                                    </div>
+                                </li> 
+                                                                <li>
+                                    <div class="sanpham_homeh_item">
+                                        <a href="http://localhost:8080/palmfood/kiwi.html" title="Kiwi"><img title="Kiwi" alt="Kiwi" src="upload/qua_kiwi_thumb.jpg"></a>   
+                                    </div>
+                                </li> 
+                                                                <li>
+                                    <div class="sanpham_homeh_item">
+                                        <a href="http://localhost:8080/palmfood/orange.html" title="Orange"><img title="Orange" alt="Orange" src="upload/orange_thumb.jpg"></a>   
+                                    </div>
+                                </li> 
+                                                                <li>
+                                    <div class="sanpham_homeh_item">
+                                        <a href="http://localhost:8080/palmfood/guava.html" title="Guava"><img title="Guava" alt="Guava" src="upload/oihuuco_thumb.jpg"></a>   
+                                    </div>
+                                </li> 
+                                                                <li>
+                                    <div class="sanpham_homeh_item">
+                                        <a href="http://localhost:8080/palmfood/banana.html" title="Banana"><img title="Banana" alt="Banana" src="upload/banana_thumb.jpg"></a>   
+                                    </div>
+                                </li> 
+                                                                <li>
+                                    <div class="sanpham_homeh_item">
+                                        <a href="http://localhost:8080/palmfood/grape.html" title="Grape"><img title="Grape" alt="Grape" src="upload/qua_nho2_thumb.jpg"></a>   
+                                    </div>
+                                </li> 
+                                                 
+                        </ul>
+                    </div>
+                    <a href="#" class="jcarousel-control-preva3"><img src="images/bnt_preview.png"></a>
+                    <a href="#" class="jcarousel-control-nexta3"><img src="images/bnt_next.png"></a>
+                </div>
+                        </div>        
+    </div>
+</div>
+<div id="wrapper" class="container">
+                    <div id="cungnhau">
+                    <div id="cungnhau_top">
+                        <a href="http://localhost:8080/palmfood/cung-nhau-vao-bep.html" title="Cùng nhập vào bếp">Cùng nhập vào bếp</a>
+                        <div id="cungnhau_top_vien"></div>
+                    </div>
+                    <div id="cungnhau_main">
+                        <div class="row">
+                                                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                        <div class="tinhome_cuoi_item">
+                                            <a href="http://localhost:8080/palmfood/cach-l-m-nam-huong-nhoi-thit.html" class="tinhome_cuoi_item_img" title="Cách làm nấm hương nhồi thịt"><img src="upload/Cach-lam-nam-huong-nhoi-thit-ngon-com-cho-bua-toi-1_thumb.jpg" title="Cách làm nấm hương nhồi thịt" alt="Cách làm nấm hương nhồi thịt"></a>
+                                            <a href="http://localhost:8080/palmfood/cach-l-m-nam-huong-nhoi-thit.html" title="Cách làm nấm hương nhồi thịt" class="tinhome_cuoi_item_name">Cách làm nấm hương nhồi thịt</a>
+                                            <p>Nấm là một món ăn kèm lẩu siêu ngon và chế biến kèm nhiều món ăn khác hấp dẫn không kém. Hôm nay, sotaynauan.com giới thiệu đến cả nhà món nấm hương nhồi thịt,... <span>[..]</span></p>
+                                            <a href="http://localhost:8080/palmfood/cach-l-m-nam-huong-nhoi-thit.html" title="Cách làm nấm hương nhồi thịt" class="tinhome_cuoi_item_read">Đọc thêm&nbsp;<img src="images/icon_readm.png" title="Cách làm nấm hương nhồi thịt" alt="Cách làm nấm hương nhồi thịt"></a>
+                                        </div>
+                                    </div>
+                                                                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                        <div class="tinhome_cuoi_item">
+                                            <a href="http://localhost:8080/palmfood/cach-l-m-sushi-ca-hoi.html" class="tinhome_cuoi_item_img" title="Cách làm Sushi cá hồi"><img src="upload/logo-270x215_thumb.jpg" title="Cách làm Sushi cá hồi" alt="Cách làm Sushi cá hồi"></a>
+                                            <a href="http://localhost:8080/palmfood/cach-l-m-sushi-ca-hoi.html" title="Cách làm Sushi cá hồi" class="tinhome_cuoi_item_name">Cách làm Sushi cá hồi</a>
+                                            <p>Sushi cá hồi  là món ăn rất phổ biến không chỉ những người dân Nhật mà người Việt chúng ta cũng rất yêu thích, đặc biệt là giới trẻ. Các bạn hoàn toàn... <span>[..]</span></p>
+                                            <a href="http://localhost:8080/palmfood/cach-l-m-sushi-ca-hoi.html" title="Cách làm Sushi cá hồi" class="tinhome_cuoi_item_read">Đọc thêm&nbsp;<img src="images/icon_readm.png" title="Cách làm Sushi cá hồi" alt="Cách làm Sushi cá hồi"></a>
+                                        </div>
+                                    </div>
+                                                                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                        <div class="tinhome_cuoi_item">
+                                            <a href="http://localhost:8080/palmfood/cach-nau-canh-hen.html" class="tinhome_cuoi_item_img" title="Cách nấu canh hến"><img src="upload/recipe7918-635675360476481228-1815_thumb.jpg" title="Cách nấu canh hến" alt="Cách nấu canh hến"></a>
+                                            <a href="http://localhost:8080/palmfood/cach-nau-canh-hen.html" title="Cách nấu canh hến" class="tinhome_cuoi_item_name">Cách nấu canh hến</a>
+                                            <p>Canh hến là một trong những món ăn rất được ưa thích vào những ngày hè nóng bức bởi khả năng giải nhiệt rất tốt. Hãy cùng Phụ nữ today khám phá cách nấu... <span>[..]</span></p>
+                                            <a href="http://localhost:8080/palmfood/cach-nau-canh-hen.html" title="Cách nấu canh hến" class="tinhome_cuoi_item_read">Đọc thêm&nbsp;<img src="images/icon_readm.png" title="Cách nấu canh hến" alt="Cách nấu canh hến"></a>
+                                        </div>
+                                    </div>
+                                                         
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                </div>
+    <div id="wrapper" class="container">
+    <div id="doitac">
+        <div id="doitac_top">
+            <a href="http://localhost:8080/palmfood/doi-tac.html" title="Đối tác">Đối tác</a>
+        </div>
+        <div id="doitac_main" style="padding-top:57px;">
+                                    <div class="jcarousel-wrapper">
+                        <div class="jcarousela">
+                            <ul>
+                                                                    <li><a href=""><img src="upload/doitac11.png"></a></li>
+                                                                        <li><a href=""><img src="upload/doitac2.png"></a></li>
+                                                                        <li><a href=""><img src="upload/doitac3.png"></a></li>
+                                                                        <li><a href=""><img src="upload/doitac4.png"></a></li>
+                                                                        <li><a href=""><img src="upload/doitac5.png"></a></li>
+                                                                    
+                            </ul>
+                        </div>
+                        <a href="#" class="jcarousel-control-preva"><img src="images/prevm.png"></a>
+                        <a href="#" class="jcarousel-control-nexta"><img src="images/nextm.png"></a>
+                    </div>
+                            </div>
+    </div>
+</div>   
+<div id="bg_footer">
+    <div id="wrapper" class="container">
+        <div id="footer">
+            <div class="row">            
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div id="logo_right"><a href="http://localhost:8080/palmfood/"><img src="upload/logo.png"></a></div>
+                </div> 
+                   
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div id="menu_foo">
+                        <div id="menuft_mb">
+                            <select onchange="if(this.value != '#') window.open(this.value, '_self');">
+                                <option>--Chọn menu--</option>
+                                <option value="http://localhost:8080/palmfood/">Trang chủ</option>
+                                                                        <option value="http://localhost:8080/palmfood/cau-chuyen-ve-palm-foods.html">Câu chuyện Palm Food</option>
+                                                                                <option value="http://localhost:8080/palmfood/san-pham.html">Sản phẩm</option>
+                                                                                <option value="http://localhost:8080/palmfood/tin-tuc.html">Tin tức</option>
+                                                                                <option value="http://localhost:8080/palmfood/cung-nhau-vao-bep.html">Cùng nhập vào bếp</option>
+                                                                                <option value="http://localhost:8080/palmfood/doi-tac.html">Đối tác</option>
+                                                                                <option value="http://localhost:8080/palmfood/tuyen-dung.html">Tuyển dụng</option>
+                                                                        <option value="http://localhost:8080/palmfood/lien-he.html">Liên hệ</option>
+                            </select>
+                        </div>
+                        <div id="menuft_desk">
+                            <ul>
+                                <li><a href="http://localhost:8080/palmfood/" title="Vingroup">Trang chủ</a></li>
+                                                                        <li><a href="http://localhost:8080/palmfood/cau-chuyen-ve-palm-foods.html" title="Câu chuyện Palm Food">Câu chuyện Palm Food</a></li>
+                                                                                <li><a href="http://localhost:8080/palmfood/san-pham.html" title="Sản phẩm">Sản phẩm</a></li>
+                                                                                <li><a href="http://localhost:8080/palmfood/tin-tuc.html" title="Tin tức">Tin tức</a></li>
+                                                                                <li><a href="http://localhost:8080/palmfood/cung-nhau-vao-bep.html" title="Cùng nhập vào bếp">Cùng nhập vào bếp</a></li>
+                                                                                <li><a href="http://localhost:8080/palmfood/doi-tac.html" title="Đối tác">Đối tác</a></li>
+                                                                                <li><a href="http://localhost:8080/palmfood/tuyen-dung.html" title="Tuyển dụng">Tuyển dụng</a></li>
+                                                                   
+                                <li><a href="http://localhost:8080/palmfood/lien-he.html" title="Liên hệ">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div id="info_company">
+                        <p>Copyright 2017 by Vingroup All rights reserved  Times City, Minh Khai, Hà Nội</p>
+                        <p>Điện thoại:&nbsp;+84 (0) 981 611 911 - Email:&nbsp;v.info.vineco@vingroup.net</p>
+                    </div>
+                </div>
+                                    
+            </div>
+        </div>
+    </div>    
+    <div class="clearfix"></div>
+</div></body>
+</html>
