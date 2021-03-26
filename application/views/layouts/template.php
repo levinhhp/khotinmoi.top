@@ -185,6 +185,7 @@ echo header('Content-type: text/html; charset=utf-8');
             </footer>
         </div>
     </div>
+    <link href="frontend/mobile/css/tiencss.css" rel="stylesheet" type="text/css">  
 </body>
 
 </html>

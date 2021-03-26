@@ -130,7 +130,7 @@ src="https://www.facebook.com/tr?id=609690863256420&ev=PageView&noscript=1"
     </section>
     <footer>
         <?php $this->load->view('mobile/elements/footer') ?>
-    </footer>
+    </footer> 
 <?php 
              $this->db->where('status',1);
              $this->db->order_by('id','random');
@@ -145,6 +145,7 @@ src="https://www.facebook.com/tr?id=609690863256420&ev=PageView&noscript=1"
              
     </div>
   </div>
+  
 <?php 
              }
         ?>

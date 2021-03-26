@@ -33,12 +33,6 @@ if (!empty($adsHome)) {
                 </div>
                 <div class="clearfix"></div>
             </a>
-            <a href="">
-                <div class="swiper_slide_all"><img src="upload/benh_nhan_nam_phi_cong-min_thumb.jpg" alt="">
-                    <p>Vì sao Việt Nam có nhiều ca Covid-19 tử vong giai đoạn mới?</p>
-                </div>
-                <div class="clearfix"></div>
-            </a>
             <div class="clearfix"></div>
         </div>
         <div class="qc-newdetail">
@@ -48,6 +42,21 @@ if (!empty($adsHome)) {
                 </div>
                 <div class="clearfix"></div>
             </a>
+            <a href="">
+                <div class="swiper_slide_all"><img src="upload/benh_nhan_nam_phi_cong-min_thumb.jpg" alt="">
+                    <p>Vì sao Việt Nam có nhiều ca Covid-19 tử vong giai đoạn mới?</p>
+                </div>
+                <div class="clearfix"></div>
+            </a>
+            <a href="">
+                <div class="swiper_slide_all"><img src="upload/benh_nhan_nam_phi_cong-min_thumb.jpg" alt="">
+                    <p>Vì sao Việt Nam có nhiều ca Covid-19 tử vong giai đoạn mới?</p>
+                </div>
+                <div class="clearfix"></div>
+            </a>
+            <div class="clearfix"></div>
+        </div>
+        <div class="qc-newdetail">
             <a href="">
                 <div class="swiper_slide_all"><img src="upload/benh_nhan_nam_phi_cong-min_thumb.jpg" alt="">
                     <p>Vì sao Việt Nam có nhiều ca Covid-19 tử vong giai đoạn mới?</p>
